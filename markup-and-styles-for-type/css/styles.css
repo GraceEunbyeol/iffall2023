@@ -1,0 +1,86 @@
+html {
+   color: gray;
+   /* CSS = cascading style sheets; it means it applies to the html universally */
+    /* format for css properties: another-property-name: value; */
+    font-family: Arial, Helvetica, sans-serif; 
+    font-family: 'Roboto Condensed', sans-serif;
+    /* this means that the first preference is Arial, if no arial, then helvetica, if not helvetica, sans-serif */
+    /* if there are more than one, the latest one will overrule */
+    font-size: 15pt;
+    /* font sizes can be absolute units and also relative, which is based on other type in the page */
+  }
+
+body {
+    margin: 10%;
+}
+
+h1 {
+    color: black;
+    letter-spacing: -0.02em;
+    /* trackingg */
+    text-transform: capitalize;
+    text-indent: -1rem;
+    font-family: "vista-slab", serif;
+}
+
+p {
+    font-size: 13pt;
+}
+
+sup{
+    font-size: 0.6em; 
+    /* 60% would be the same as 0.6em */
+}
+
+dfn {
+    font-weight: bold;
+    /* can add multiple rules to the same selector :O*/
+    text-transform: lowercase;
+}
+
+small {
+    font-style: italic;
+}
+
+/* so css style sheets are creating your own language 
+to use as code in the html in a way that makes sense to you 
++ make it more convenient than actually typing it all out */
+
+aside {
+    text-align: center;
+}
+
+cite {
+    text-align: right;
+    display: block;
+}
+
+article {
+    margin: 6rem 0;
+    /* any time with two units: 
+    first value = top and bottom, 
+    second value = side to side 
+    in this case: 
+    top and bottom: 6rem, 
+    side margins: none*/
+}
+
+section {
+    margin: 2.5rem 0;
+}
+
+a {
+    text-decoration: none;
+    /* removes the underline for any links */
+    /* this changes how anchor elements (href links) are displayed */
+}
+
+code {
+    color: steelblue;
+    /* click on the color square for color wheel */
+}
+
+.fas {
+    font-size: 0.8em;
+    color: red;
+}

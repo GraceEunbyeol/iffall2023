@@ -1,0 +1,101 @@
+html {
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    text-align: center;
+    background-image: url(../images/AdobeStock_332317362.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header .column_container {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+body .ingredients .column_container {
+    width: 50%;
+    background-color:rgb(255, 104, 121);
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 20px;
+}
+
+body {
+    background-color:rgb(245, 238, 220);
+}
+
+.brief img {
+    width: 8%;
+    vertical-align: middle;
+}
+
+.brief p{
+    display: inline-block;
+}
+
+.column_container {
+    width: 70%;
+    margin: auto;
+    padding-bottom: 36px;
+}
+
+.step p{
+    font-size: 2.5rem;
+    width: 80%;
+}
+
+.step img{
+    border-radius: 20px;
+    width: 40%;
+    float:right;
+    padding-left: 70px;
+}
+
+.step {
+    padding-bottom: 40px;
+}
+
+h1, h2, h3, h4 p {
+    margin: 0;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    text-align: left;
+    font-size: 50px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+h4 {
+    font-size: 50px;
+    font-style:italic;
+}
+
+p {
+    font-size: 20px;
+    text-align: left;
+}
+
+footer {
+    font-size: 20px;
+}
+
+.copyright {
+    padding-top: 42px;
+    font-size: 18px;
+    background-color: rgb(122, 131, 255);
+    color:azure;
+}

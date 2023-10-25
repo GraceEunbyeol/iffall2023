@@ -45,7 +45,7 @@ body {
 }
 
 .step p{
-    font-size: 2.5rem;
+    font-size: 20px;
     width: 80%;
 }
 
@@ -99,3 +99,4 @@ footer {
     background-color: rgb(122, 131, 255);
     color:azure;
 }
+
